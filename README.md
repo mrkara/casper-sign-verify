@@ -2,6 +2,8 @@
 
 A lightweight Rust tool for signing messages with Casper Network validator keys and verifying signatures. This tool replaces the Python-based `casper-testnet-validator-identification` with a modern, fast Rust implementation that supports both **Ed25519** and **Secp256k1** key types.
 
+> **Note**: This tool was developed using AI assistance. While it has been tested and verified to work correctly with Casper Network keys, please review the source code and test thoroughly in your environment before using in production.
+
 ## Features
 
 **Dual Key Algorithm Support**: Seamlessly work with both Ed25519 (algorithm tag `01`) and Secp256k1 (algorithm tag `02`) keys. The tool automatically detects the key type from PEM files.
