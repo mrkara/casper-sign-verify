@@ -1,0 +1,10 @@
+[package]
+name = "casper-sign-verify"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+casper-types = { version = "7.0.0", features = ["std", "std-fs-io"] }
+clap = { version = "4.5", features = ["derive"] }
+hex = "0.4.3"
+anyhow = "1.0.81"
